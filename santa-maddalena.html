@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        body {
+            margin: 0;
+            font-family: Montserrat;
+        }
+        .main-section {
+            padding: 20px;
+        }
+        .image-container {
+            height: 500px;
+            background-image: url("https://www.viaggimust.it/wp-content/uploads/2020/02/santa-maddalena-val-di-funes1.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #first-h1 {
+            font-family: Prada;
+            font-size: 64px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        #first-h3 {
+            font-family: Prada;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        #first-link {
+            font-weight: 600;
+            font-style: italic;
+        }
+        #first-h6 {
+            padding: 22px;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(90deg,hsl(67.37deg 80.28% 27.84%),white);
+        }
+        #first-ul {
+            list-style-type: none;
+            padding: 0;
+        } 
+        .list-element {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px;
+            color: #dfdfdf;
+        }
+        .list-element a {
+            text-decoration: none;
+            color: 
+            hsl(67.37deg 80.28% 27.84%);
+        }
+        #footer {
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            padding: 16px;
+            text-align: center;
+        }
+        #footer-link {
+            color:white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <div class="image-container">
+        </div>
+        <h1 id="first-h1">Santa Maddalena</h1>
+        <h3 id="first-h3">Val di Funes, Trentino Alto Adige</h3>
+        <p>Autore: <a id ="first-link" href="https://www.viaggimust.it/author/kevin/">Kevin Bastianello</a></p>
+        <h6 id="first-h6">Luoghi correlati</h6>
+        <ul id="first-ul">
+            <li class="list-element"><a href="./colle.html">Colle</a></li>
+            <li class="list-element"><a href="./san-giacomo.html">San Giacomo</a></li>
+            <li class="list-element"><a href="./santa-maddalena.html">Santa Maddalena</a></li>
+            <li class="list-element"><a href="./san-pietro.html">San Pietro</a></li>
+            <li class="list-element"><a href="./san-valentino.html">San Valentino</a></li>
+            <li class="list-element"><a href="./tiso.html">Tiso</a></li>
+        </ul>
+    </div>
+    <div id="footer"><a id="footer-link" href="./index.html">Torna indietro</a></div>
+</body>
+</html>
